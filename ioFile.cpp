@@ -7,4 +7,12 @@ int main() {
     string baris;
     //Membuka file dalam mode menulis
     ofstream outfile;
+    //menunjuk kesebuah nama file
+    outfile.open("contohfile.txt");
+    cout << ">=Menulis file, \ 'q\ ' untuk keluar" << endl;  
+    //unlimited loop untuk menulis
+    while(true) {
+        cout << "- ";
+        
+    }
 }
